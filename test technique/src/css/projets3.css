@@ -1,0 +1,325 @@
+/*global*/
+.body{
+    color: black;
+}
+.heading-site{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+/*
+.colored{
+    height: 400px;
+    width: 100%;
+    background-color: #3498db;
+    padding-top: 30px;
+    text-align: center;
+
+}*/
+/*header*/
+.header{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;/*hauteur de ligne*/
+    background-color: black;
+    position: relative;
+    top: 0;
+    z-index: 999;
+}
+.header .header-logo{
+    color:#FFFFFF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    float:left;
+    margin-left: 30px;
+}
+.header .header-menu{
+    float: right;
+    margin-right: 30px;
+}
+.header .header-menu a{
+    margin-right: 15px;
+    color:#FFFFFF;
+}
+.header .header-menu a:hover{
+    color:#3498db;
+}
+
+/*banner*/
+
+.banner{
+    margin-top: -40px;
+}
+.banner .banner-image{
+    position: relative;
+    width: 100%;
+    height: 820px;
+}
+.banner .banner-content{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+}
+.banner .banner-content h1,
+.banner .banner-content h2{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.banner .banner-content .is-link{
+    font-size: 25px;
+}
+/*about*/
+
+.about .about-single-element .icon{
+    font-size: 60px;
+    text-align: center;
+}
+.about .about-single-element p{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer .footer-informations{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+}
+.footer .footer-informations ul{
+    padding: 0;
+}
+.footer .footer-informations ul li{
+    display: inline-block;
+    list-style-type:none;
+}
+.footer .footer-informations ul li .fa-instagram{
+    color: rgb(197, 29, 169);
+}
+/*Modal*/
+.own-modal{
+    padding-top: 30px;
+}
+.footer-contact-form .is-linl{
+    margin-top: 20px;
+}
+/*article*/
+.articles{
+    text-align: center;
+    padding-top: 30px;
+}
+.background .article_title{
+    font-size: 30px;
+    text-align: center;
+    color: #333;
+    
+    
+    display: inline;
+}
+.background .articles_items{
+    margin-left: 38.5%;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;/*horizontal*/
+    justify-content: space-between;/*xtrem gauche droite*/
+    flex-wrap: wrap;/*va a la ligne*/
+}
+.article{
+    height: 300px;
+    width: 300px;
+    
+    border-radius: 5px;
+    /*background-size: cover;*/
+    position: relative;
+    overflow: hidden;/*cache se qui sort de la div*/
+}
+/*
+.article{
+    z-index: ;
+
+}
+*/
+.background{
+    width: 90%;
+    margin: 30px auto 30px;
+   
+    border-radius: .40rem;
+    background-color: #F5F4F4;
+    height: 500px;
+}
+.article__filter{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;left: 0;
+    background:linear-gradient(rgba(0,0,0.8),transparent);
+}
+
+
+.article_name{
+  
+    padding-top: 8px;
+    color: #FFFFFF;
+    z-index: 1;
+    position: relative;
+    text-align: center; 
+    font-size: 18px;
+    line-height: 6px;
+}
+.article:hover .article_icon{
+    transform: translateY(0);
+   
+}
+.article_icon{
+    display:flex;/*centre icon*/ 
+    z-index: 1;
+    position: absolute;
+    top: 0;left: 0;
+    justify-content: center;
+    align-items: center;/*icon au centre*/
+    height: 100%;
+    width: 100%;
+    font-size: 35px;
+    color:#FFF;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(100%);/*vient vers le bas*/
+}
+/*recents articles*/
+.content{
+    width: 90%;
+    margin: 30px auto 30px;
+    background-color: gray;
+}
+.content .main-content{
+    width: 70%;
+    float: left;
+    background-color:#F5F4F4;
+    border-radius: .40rem;
+}
+.content .sidebar{
+    width: 30%;
+    float: left;
+    /*border:1px dashed green;*/
+    height: 1066px;
+    border-radius: 5px;
+}
+.clearfic::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+ 
+.content .main-content .recent-post-title{
+    margin: 20px;
+}
+.content .main-content .post{
+    width: 95%;
+    height: 270px;
+    margin: 50px auto;
+    border-radius: 5px;
+    background: white;
+    position: relative ;
+    
+}
+.content .main-content .post .post-image{
+    width: 40%;
+    height: 100%;
+    float: left; 
+    border-radius: .40rem; 
+}
+.content .main-content .post .post-preview{
+    width: 60%;
+    padding: 10px;
+    float:right;
+}
+/*
+.content .main-content .post .read-more{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid #005255;
+    background: transparent;
+    border-radius: 0px;
+    color: #005255 !important;
+}
+.content .main-content .post .read-more:hover{
+    background: #005255;
+    color: #FFFFFF !important;
+    transition: .25s;
+}
+
+.btn{
+    padding: .5rem 1rem;
+    background: #3498db;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    border-radius: .40rem;
+}
+.btn:hover{
+    color: white !important;
+   
+}*/
+.content .sidebar .section{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
+.content .sidebar{ 
+    background-color:#F5F4F4;
+    margin-left: -3px;
+}
+.content .sidebar .section.search{
+    margin-top: 105px;
+}
+#myUL .topics{
+    list-style:none;
+}
+.section.topics #myUL{
+    margin: 0px;
+    padding: 0px;
+    list-style:none;
+    border-top: 1px solid #e0e0e0;
+   
+}
+.section-title{
+    margin: 10px 0px 10px 0px;
+}
+
+.section.topics #myUL li a{
+    border-bottom: 1px solid #e0e0e0;
+    display: block;
+    padding: 15px 0px 15px 0px;
+    transition: all 0.3s;
+
+}
+.section.topics #myUL li a:hover{
+    padding-left: 25px;
+    transition: all 0.3s;
+}
+
+.text-input{
+    padding: .7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 9px;
+    outline:none;
+    color: gray;
+    line-height: 2rem;
+    font-size: 1.2em;
+    border: 1px solid #e0e0e0;
+    font-style: 'lora',serif;
+}
+
+input[type=text] { 
+    width: 30%; 
+    -webkit-transition: width 0.15s ease-in-out; 
+    transition: width 0.15s ease-in-out; 
+ } 
+
+
+ input[type=text]:focus { 
+   width: 70%; 
+ } 
+

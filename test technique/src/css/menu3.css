@@ -1,0 +1,294 @@
+/*global*/
+
+.heading-site{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/*
+.colored{
+    height: 400px;
+    width: 100%;
+    background-color: #3498db;
+    padding-top: 30px;
+    text-align: center;
+
+}*/
+/*header*/
+.header{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;/*hauteur de ligne*/
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.header .header-logo{
+    color:#FFFFFF;
+    font-family: 'Montserrat Alternates', sans-serif;
+    float:left;
+    margin-left: 30px;
+}
+.header .header-menu{
+    float: right;
+    margin-right: 30px;
+}
+.header .header-menu a{
+    margin-right: 15px;
+    color:#FFFFFF;
+}
+.header .header-menu a:hover{
+    color:#3498db;
+}
+
+/*banner*/
+
+.banner{
+    margin-top: -20px;
+}
+.banner .banner-image{
+    position: relative;
+    height: 880px;
+}
+.banner .banner-content{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+}
+.banner .banner-content h1,
+.banner .banner-content h2{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.banner .banner-content .is-link{
+    font-size: 25px;
+}
+/*about*/
+.footer .footer-informations{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+  
+}
+.footer .footer-informations ul{
+    padding: 0;
+}
+.footer .footer-informations ul li{
+    display: inline-block;
+    list-style-type:none;
+}
+.footer .footer-informations ul li .fa-instagram{
+    color: rgb(197, 29, 169);
+}
+/*Modal*/
+.own-modal{
+    padding-top: 120px;
+}
+.footer-contact-form .is-linl{
+    margin-top: 20px;
+}
+ /*header*/
+
+/*services*/
+.services{
+    height: 2700px;
+    background-color: #f5f5f5;
+    padding: 2% 10% 0px 10%;
+    margin-top: -30px;
+}
+.services-text p:nth-child(1){
+    color: black;
+    font-size: 60px;
+    line-height: 0px;
+}
+.services-text p:nth-child(2){
+
+    color: #3e3e3d;
+    font-size: 45px;
+    line-height: 150px;
+}
+.services-text p:nth-child(3){
+
+    margin-top: -30px;
+}
+.services-text{
+    width: 500px;
+    margin: 50px 0px;
+}
+
+/*next*/
+.slider-title{
+    text-align: center;
+    color: #3e3e3d;
+    font-size: 3.5rem;
+}
+.items{
+    margin-top: -90px;
+}
+.post{
+    background:url('/Users/josselin/Documents/test3/src/img/Image 29-03-2020 à 14.41.jpg');
+    background-size: cover;
+    margin: 1.5rem;
+    padding:.7em ;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.3);
+}
+
+blockquote{
+    padding: .5em;
+    font-size: 1.3em;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+.icon1{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;/*up*/
+    font-weight: 100;
+
+}
+.icon2{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;/*up*/
+    font-weight: 100;
+  
+}
+.icon3{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;/*up*/
+    font-weight: 100;
+  
+}
+.icon4{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;/*up*/
+    font-weight: 100;
+  
+}
+
+.post-text{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+/*next*/
+/*port*/
+.portfolio-item{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.portfolio-item:last-child{
+    margin-bottom: 0;  
+}
+.profile-img{
+    flex: 1;
+    width: 5rem;
+}
+.portfolio-description{
+    flex: 1;
+}
+.portfolio-description h6{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: 0.3;
+}
+.portfolio-description h1{
+    font-size: 2.7rem;
+    margin:1rem 0;
+    font-weight: 300;
+  
+}
+.has-margin-right{
+    margin-right: 5rem;
+}
+.container{
+    width: 95%;
+    max-width: 120rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.section-heading{
+    text-align: center;
+    margin-bottom: 10rem;
+}
+/*port*/
+/*work*/
+
+.timeline ul{
+    border-left: 4px solid #ffe838 ;
+    border-radius: .8rem;
+    background-color: rgba(0,0,0,0.05);
+    margin: 0 auto;
+    position: relative;
+    padding: 5rem;
+    list-style: none;
+    width: 70%;
+    text-align: left;
+    margin-top: -140px;
+}
+.timeline h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 1rem;
+
+}
+.timeline .date{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+}
+.timeline .date:last-of-type{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+.timeline .date::before, .timeline .date::after{
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.timeline .date::before{
+    content: attr(data-date);
+    left: attr(data-date);
+    left: -21rem;
+    text-align: right;
+    min-width: 12rem;
+    font-size: 1.5rem;
+}
+
+.timeline .date::after{
+    content: '';
+    box-shadow: 0 0 0 4px yellow;
+
+    border-radius: 100%;
+    left:-8rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #313534;
+}
+
+
+/*work*/
+/*services*/
+/*
+body{
+    width=100%;
+    height:100%;
+    background url
+    back size cover
+*/
