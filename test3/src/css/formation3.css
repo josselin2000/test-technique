@@ -1,0 +1,169 @@
+/*global*/
+.heading-site{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+/*
+.colored{
+    height: 400px;
+    width: 100%;
+    background-color: #3498db;
+    padding-top: 30px;
+    text-align: center;
+
+}*/
+/*header*/
+.header{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;/*hauteur de ligne*/
+    background-color:black;
+    position: fixed;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+}
+.header .header-logo{
+    color:white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    float:left;
+    margin-left: 30px;
+}
+.header .header-menu{
+    float: right;
+    margin-right: 30px;
+}
+.header .header-menu a{
+    margin-right: 15px;
+    color:white
+}
+.header .header-menu a:hover{
+    color:#3498db;
+}
+
+/*banner*/
+.container{
+    margin-left: 60px;
+}
+.banner{
+    margin-top: -20px;
+}
+.banner .banner-image{
+    position: relative;
+    height: 880px;
+    width: 1500px;
+    
+}
+.banner .banner-content{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+}
+.banner .banner-content h1,
+.banner .banner-content h2{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.banner .banner-content .is-link{
+    font-size: 25px;
+}
+.banner .banner-content .title1{
+    color: black;
+    text-align: center;
+    font-size: 2.6em;
+}
+.banner .banner-content .title2{
+    color: black;
+    text-align: center;
+    font-size: 3.6em;
+}
+.banner .banner-content .title2:hover{
+    color: red;
+}
+/*about*/
+/*footer*/
+.footer .footer-informations{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+}
+.footer .footer-informations ul{
+    padding: 0;
+}
+.footer .footer-informations ul li{
+    display: inline-block;
+    list-style-type:none;
+}
+.footer .footer-informations ul li .fa-instagram{
+    color: rgb(197, 29, 169);
+}
+/*footer*/
+
+/*formation*/
+ .formationpartie .emoji{
+    text-align: center;
+    font-size: 40px;
+    margin-left: 40px;
+    
+}
+.formationpartie .emoji :hover{
+  color: red;
+  font-size: 55px;
+  transform: translateY(10px);
+  transition-duration: 0.125s;
+  z-index: 900;
+}
+.container{
+    z-index: 999;
+}
+.formation-content{
+    text-align: center;
+    font-size: 17px;
+}
+.formation-logo{
+    margin-top: 0px;
+}
+.h2{
+    padding-left: 260px;
+    color: gray;
+    font-size: 18px;
+}
+.h1{
+    padding-left: 260px;
+    margin-top: -51px;
+    color: black;
+    font-size: 19px;
+}
+.h2-MCR{
+    padding-left: 200px;
+    color: gray;
+    font-size: 18px;
+}
+.h1-MCR{
+    padding-left: 200px;
+    margin-top: -120px;
+    color: black;
+    font-size: 19px;
+}
+
+.notification .button{
+    background-color: #157373;
+    color: white;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #143434;
+    color: white;
+    text-decoration: none;  
+    transform: translateY(-5px) translateX(5px);
+}
+
+.is-offset-one-quarter:hover{
+    transform: translateY(-10px) translateX(10px);
+    transition-timing-function: ease-in-out;
+    transition-duration: 400ms;
+}
+/*formation*/
